@@ -110,39 +110,39 @@ h1 span {
   opacity: 0;
 }
 
-h1 span:nth-child(2) {
+h1 h1 span:nth-child(2) {
+  -webkit-animation-delay: .8s;
+          animation-delay: .8s;
+}
+
+h1 h1 span:nth-child(3) {
   -webkit-animation-delay: 1s;
           animation-delay: 1s;
 }
 
-h1 span:nth-child(3) {
+h1 h1 span:nth-child(4) {
   -webkit-animation-delay: 1.2s;
           animation-delay: 1.2s;
 }
 
-h1 span:nth-child(4) {
+h1 h1 span:nth-child(5) {
   -webkit-animation-delay: 1.4s;
           animation-delay: 1.4s;
 }
 
-h1 span:nth-child(5) {
+h1 h1 span:nth-child(6) {
   -webkit-animation-delay: 1.6s;
           animation-delay: 1.6s;
 }
 
-h1 span:nth-child(6) {
+h1 h1 span:nth-child(7) {
   -webkit-animation-delay: 1.8s;
           animation-delay: 1.8s;
 }
 
-h1 span:nth-child(7) {
+h1 h1 span:nth-child(8) {
   -webkit-animation-delay: 2s;
           animation-delay: 2s;
-}
-
-h1 span:nth-child(8) {
-  -webkit-animation-delay: 2.2s;
-          animation-delay: 2.2s;
 }
 
 @-webkit-keyframes rotate-heading {
@@ -184,7 +184,7 @@ h1 span:nth-child(8) {
   top: 111px;
   left: 100px;
   width: 260px;
-  height: 80px;
+  height: 90px;
   font-size: 36px;
   color: #ffff;
   text-shadow: 2px 2px 5px #000;
@@ -197,25 +197,25 @@ h1 span:nth-child(8) {
   top: -60px;
   left: 0;
   content: '01/01/2022';
-  -webkit-animation: slide-text 1.3s 3.5s forwards;
-          animation: slide-text 1.3s 3.5s forwards;
+  -webkit-animation: slideDown-text 1.3s 3.5s forwards;
+          animation: slideDown-text 1.3s 3.5s forwards;
 }
 
-@-webkit-keyframes slide-text {
+@-webkit-keyframes slideDown-text {
   from {
     top: -60px;
   }
   to {
-    top: 10px;
+    top: 35px;
   }
 }
 
-@keyframes slide-text {
+@keyframes slideDown-text {
   from {
     top: -60px;
   }
   to {
-    top: 10px;
+    top: 35px;
   }
 }
 /*# sourceMappingURL=mail.css.map */
